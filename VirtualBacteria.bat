@@ -21,7 +21,7 @@ rem 8 = 256 files
 rem 9 = 512 files
 rem 10 = 1024 files
 
-rem And this chart is assuming you only have one file to begin with. If you had multiple, all of these numbers would once again, increase exponentially.
+rem And this chart is assuming you only have one file to begin with. If you had multiple, all of these numbers would, once again, increase exponentially.
 
 for /l %%x in (1,1,5) do (
  for /f "tokens=* delims=" %%a in ('dir c:\filler /s /b') do (
